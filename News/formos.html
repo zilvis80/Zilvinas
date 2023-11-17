@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>Formos</h1>
+    <form>
+      <label for="fname">First name</label>
+      <input type="text" id="fname" placeholder="Submit" /><br />
+
+      <label for="phone number">number</label>
+      <input type="number" id="phone number" placeholder="+370" />
+
+      <label for="new password">Password</label>
+      <input type="password" id="new password" />
+
+      <label for="New email">Email</label>
+      <input type="email" id="New email" />
+
+      <label for="new data">date</label>
+      <input type="date" id="new data" />
+
+      <label for="new meat">meat</label>
+      <input type="radio" id="new meat" />
+
+      <input type="button" value="send" />
+    </form>
+    <h1>The form element</h1>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br />
+      <input type="submit" value="Submit" />
+      <option value="kaunas">Kaunas</option>
+      <option value="Vilnius">Vilnius</option>
+      <option value="Klaipeda">Klaipeda</option>
+    </form>
+    <h1>
+      <form>
+        <input
+          type="text"
+          name="Vardaspavarde"
+          placeholder="Vardas pavarde"
+        /><br />
+        <input
+          type="pasword"
+          name="Slaptazodis"
+          placeholder="Slaptazodis"
+        /><br />
+        <input type="submit" value="Prisijungti" /><br />
+      </form>
+    </h1>
+    <h2>
+      <form>
+        <input type="test" name="jusuvardas" placeholder="jusu vardas" /><br />
+        <input
+          type="email"
+          name="jusuelpastodezute"
+          placeholder="jusu el pasto dezute"
+        /><br />
+        <input
+          type="jusuzinute"
+          name="jusuzinute"
+          placeholder="jusu zinute"
+        /><br />
+        <textarea
+          name="siustizinute"
+          placeholder="siusti zinute"
+          cols="30"
+          rows="10"
+        ></textarea
+        ><br />
+        <input type="submit" value="siusti" />
+      </form>
+      <form>
+        <h3>Lyties pasirinkimas</h3>
+        <input type="radio" name="Vyras" value="Vyras" />Vyras<br />
+        <input type="radio" name="Vyras" value="Moteris" />Moteris<br />
+        <input type="radio" name="Vyras" value="Vaikas" />Vaikas<br />
+        <input type="radio" name="masina" value="BMW" />BMW<br />
+        <input type="radio" name="masina" value="Opel" />Opel<br />
+        <input type="button" value="Pasirinkti" />
+      </form>
+    </h2>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+body {
+  background-color: blanchedalmond;
+}
+div {
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 30px auto;
+}
+button {
+  background-color: blanchedalmond;
+  border: none;
+  padding: 10px;
+  cursor: grab;
+}
