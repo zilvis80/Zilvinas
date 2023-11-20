@@ -1,0 +1,20 @@
+.title {
+  width: 100vw;
+  text-align: center;
+  background-color: red;
+}
+.divBox {
+  font-size: 80px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+.divbodyp {
+  margin-bottom: 2em;
+  width: 50%;
+  background-color: aliceblue;
+}
+.body {
+  margin-bottom: 2rem;
+  width: 80%s;
+  background-color: aquamarine;
+}

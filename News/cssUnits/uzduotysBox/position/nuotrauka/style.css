@@ -1,0 +1,27 @@
+.nuotrauka {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(https://images.unsplash.com/photo-1682687220067-dced9a881b56?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center center;
+  background-size: cover;
+}
+h1 {
+  font-size: 5rem;
+
+  color: white;
+  background: rgba(83, 88, 17, 0.466);
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.titulinisKonteineris {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+.titulinisKonteineris p {
+  color: white;
+  background: rgba(0, 0, 0, 0.409);
+  padding: 0.5rem 0.5rem;
+}

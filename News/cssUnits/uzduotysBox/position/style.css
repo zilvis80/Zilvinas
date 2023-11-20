@@ -1,0 +1,43 @@
+.screen {
+  background-color: brown;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  padding: 2rem;
+  font-family: fantasy;
+}
+h1 {
+  font-size: 5rem;
+}
+.container {
+}
+button {
+  border: none;
+  padding: 1rem 2rem;
+  background: white;
+  color: brown;
+  font-size: 2rem;
+  font-family: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  box-shadow: 14px 15px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.btn-fixed {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  z-index: 4;
+}
+.btn-absolute {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+.sticky {
+  padding: 2rem;
+  background-color: brown;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
