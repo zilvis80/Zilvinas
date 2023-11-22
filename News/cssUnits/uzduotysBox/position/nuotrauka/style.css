@@ -1,22 +1,23 @@
 .nuotrauka {
   width: 100vw;
   height: 100vh;
-
+  opacity: 0.8;
   background-image: url(https://images.unsplash.com/photo-1682687220067-dced9a881b56?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-position: center center;
   background-size: cover;
 }
 h1 {
   font-size: 5rem;
-
+  width: fit-content;
   color: white;
   background: rgba(83, 88, 17, 0.466);
+
   padding: 1rem 0.5rem;
   margin-bottom: 1rem;
 }
 .titulinisKonteineris {
-  font-family: "Courier New", Courier, monospace;
   position: absolute;
+  font-family: "Courier New", Courier, monospace;
   top: 70%;
   left: 10%;
 }
@@ -24,4 +25,27 @@ h1 {
   color: white;
   background: rgba(0, 0, 0, 0.409);
   padding: 0.5rem 0.5rem;
+}
+.antras-tekstas {
+  padding: 1rem 1rem;
+  background: rgba(38, 38, 175, 0.449);
+  color: white;
+}
+.virsaus-mygtukai {
+  background: rgba(6, 33, 6, 0.389);
+}
+a {
+  color: white;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: rgba(5, 5, 19, 0.416);
+  margin-bottom: 1rem 1rem;
+}
+.virsaus-mygtukai {
+  position: absolute;
+  top: 1rem;
+  left: 25vh;
+  background-color: rgba(21, 21, 220, 0.347);
+  padding: 1rem 5rem;
+  word-spacing: 4rem;
 }

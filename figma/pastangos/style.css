@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  position: relative;
+  background: #e2e1e1;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 3rem 1rem;
+}
+
+.creator {
+  color: #121212;
+  text-align: center;
+  font-family: Inter;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 128px */
+}
+.desigen {
+  color: var(--black-400-gray, #959393);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 110% */
+  letter-spacing: 0.2px;
+  position: relative;
+  bottom: -30px;
+}
+p {
+  color: #373636;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 110% */
+  letter-spacing: 0.2px;
+  margin: 2rem;
+}
+img {
+  position: absolute;
+  bottom: -1%;
+  right: -1%;
+}
+.creator-box {
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+}
