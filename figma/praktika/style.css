@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: black;
+}
+.main {
+  position: relative;
+  background: rgba(34, 34, 37, 0.7);
+
+  text-align: center;
+  width: 600px;
+  margin: 5rem auto;
+}
+.text {
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  padding: 20px 50px;
+}
+.creat {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  bottom: -2rem;
+  line-height: 100%;
+  text-align: left;
+}
+.creator-box {
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+  padding: 85px 72px;
+  text-align: left;
+}
+.button {
+  border-radius: 12px;
+  border: 2px solid red;
+  color: red;
+  display: flex;
+}
+.mikrofonas {
+  position: absolute;
+  bottom: 10rem;
+  left: -4rem;
+}
+
+.apskritimas {
+  position: absolute;
+  left: 31rem;
+  bottom: -2rem;
+  z-index: 1;
+}
+.rutulis {
+  position: absolute;
+  left: 35rem;
+  bottom: 3rem;
+  z-index: 2;
+}
+.zvaigzde {
+  position: absolute;
+  left: 30rem;
+  bottom: -2rem;
+  z-index: 3;
+}
+.button {
+  position: fixed;
+  left: 15.5rem;
+  bottom: 34rem;
+}
