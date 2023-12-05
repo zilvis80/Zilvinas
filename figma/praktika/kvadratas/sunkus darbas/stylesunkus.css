@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.planeta {
+  z-index: 1;
+}
+.gaublys {
+  position: absolute;
+  bottom: 5rem;
+  z-index: 2;
+  left: -5rem;
+}
+.zmogus {
+  z-index: 3;
+}
+.deze {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 75px 80;
+}
